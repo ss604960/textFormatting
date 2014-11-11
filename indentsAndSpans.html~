@@ -7,35 +7,6 @@
 <link rel="stylesheet" href="style.css">
 <style>
 
-
-#exercise1 {
-  margin: 0em 2em;
-  text-indent: 5em;
-  margin: 0em;
-  padding: 8em;
-	
-	
-}
-
-#exercise1 h2{
-  text-indent: 0em;
-	
-}
-
-#essay p{
- margin: 0;
- line-height: 2em;
-}
-
-.essay {
- margin: 0;
-}
-
-#worksCited {
- text-indent: .5em;
- 
-}
-
 </style>
 </head>
 <body>
@@ -53,7 +24,7 @@ Once you have replicated the pictured design, try experimenting with some spans 
 </div>
 <div id="exercise1" class="exercise">
 <section id="essay">
-<h2><strong>Global Warming</strong></h2>
+<h2>Global Warming</h2>
 <p>Global warming is the observed century-scale rise in the average temperature of Earth's climate system.<span class="note">[2]</span> Since 1971, 90% of the increased energy has been stored in the oceans, mostly in the 0 to 700m region.[3] Despite the oceans' dominant role in energy storage, the term "global warming" is also used to refer to increases in average temperature of the air and sea at Earth's surface.[4] Since the early 20th century, the global air and sea surface temperature has increased about 0.8 °C (1.4 °F), with about two-thirds of the increase occurring since 1980.[5] Each of the last three decades has been successively warmer at the Earth's surface than any preceding decade since 1850.[6]</p>
 
 <p>Scientific understanding of the cause of global warming has been increasing. In its fourth assessment (AR4 2007) of the relevant scientific literature, the Intergovernmental Panel on Climate Change (IPCC) reported that scientists were more than 90% certain that most of global warming was being caused by increasing concentrations of greenhouse gases produced by human activities.[7][8][9] In 2010 that finding was recognized by the national science academies of all major industrialized nations.[10][a]</p>

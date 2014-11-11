@@ -7,34 +7,12 @@
 <link rel="stylesheet" href="style.css">
 <style>
 #tabContainer {
-  width: 30%;
-  margin: .5em;
-
-  
-  
 
 }
 
-#tabContainer a { 
-  display: inline-block;
-  width: 22%;
-  background: darkblue;
-  color: yellow;
-  border-top-left-radius: 95%;
-  border-top-right-radius: 95%;
-  padding-left: .25em;
-  padding-right: .25em;
-  margin: .11em;
-  text-align: left;
-  padding-top: 1em;
-  text-decoration: none;
+#tabContainer a:hover {
 
 }
-
-#tabContainer a:hover{
-	
-}
-
 </style>
 </head>
 <body>
