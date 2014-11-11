@@ -6,7 +6,18 @@
 <link href='http://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css">
 <style>
+#eyeChart {
+  width: 20%;
+  text-align: center;
+}
 
+#topLine {
+  font-size: 6em;
+}
+
+#secondLine {
+  font-size: 3em;
+}
 
 </style>
 </head>
@@ -15,25 +26,25 @@
 <div id="intro" class="instructions">
 Use CSS to replicate the pictured eye chart. To accomplish this: 
 <ol>
-	<li>Adjust size, text-alignment and word-spacing on each of the spans (topLine, secondLine, thirdLine, etc) to adjust the display of letters in that span</li>
+	<li>Adjust size, text-alignment and word-spacing on each of the divs (topLine, secondLine, thirdLine, etc) to adjust the display of letters in that span</li>
 	<li>Adjust the padding and margins of the eye chart div to roughly match the dimensions of the eye-chart and the placement of text on the chart.</li>
-	<li>Adjust the margins of paragraphs within the chart to fine-tune the appearance of rows of text. NOTE: You will probably need to add ids to some of the paragraphs and adjust their margins individually to completely replicate the chart as pictured.</li>
-	<li>If you replicate the appearance of the letters on the chart, and want to add the green and red lines, try adding a bottom border to the appropriate paragraphs and setting it to a very large size</li>
+	<li>Adjust the margins of each div within the chart to fine-tune the appearance of rows of text. </li>
+	<li>If you replicate the appearance of the letters on the chart, and want to add the green and red lines, try adding a bottom border to the appropriate div and setting it to a very large size</li>
 	<li>If you finish all this, try to find a google font that approximates the font shown in the chart, add it to this document, and apply it to the eyeChart div.</li>
 </div>
 <div id="exercise1" class="exercise">
 <div id="eyeChart">
-	<p><span id="topLine">E</span></p>
-	<p><span id="thirdLine">F P</span></p>
-	<p><span id="fourthLine">T O Z</span></p>
-	<p><span id="fifthLine">L P E D</span></p>
-	<p><span id="sixthLine">P E C F D</span></p>
-	<p><span id="seventhLine">E D F C Z P</span></p>
-	<p><span id="eighthLine">F E L O P Z D</span></p>
-	<p><span id="ninthLine">D E F P O T E C</span></p>
-	<p><span id="tenthLine">L E F O D P C T</span></p>
-	<p><span id="eleventhLine">F T P L T C E O</span></p>
-	<p><span id="twelfthLine">P E Z O L C F T D</span></p>
+	<div id="topLine" class="chartLine">E</div>
+	<div id="secondLine" class="chartLine">F P</div>
+	<div id="thirdLine" class="chartLine">T O Z</div>
+	<div id="fourthLine" class="chartLine">L P E D</div>
+	<div id="fifthLine" class="chartLine">P E C F D</div>
+	<div id="sixthLine" class="chartLine">E D F C Z P</div>
+	<div id="seventhLine" class="chartLine">F E L O P Z D</div>
+	<div id="eighththLine" class="chartLine">D E F P O T E C</div>
+	<div id="ninthLine" class="chartLine">L E F O D P C T</div>
+	<div id="tenththLine" class="chartLine">F T P L T C E O</div>
+	<div id="eleventhLine" class="chartLine">P E Z O L C F T D</div>
 </div>
 </div>
 <h3>Eyechart to replicate:</h3>
